@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.txt-color {
+
+    color: white;
+}
+
+.heading {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    border-bottom: 2px solid red;
+}
+
+.container {
+
+    margin-top: 50px;
+    display: flex;
+    height : 200px;
+    width : 100%;
+}
+
+.left {
+
+    box-shadow: 5px 10px 10px green;
+    padding-left: 20px;
+    width : 47%;
+    height : 300px;
+}
+
+.right {
+
+    box-shadow: 5px 10px 10px red;
+    width: 47%;
+    height: 300px;
+    padding-left: 40px;
+}
+
+.title {
+
+    font-size: 25px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.list {
+
+    font-size: 18px;
+}
+
+.exp-logo {
+
+    height: 120px;
+    width: 250px;
+    margin-top: 15px;
+}
